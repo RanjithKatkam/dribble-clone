@@ -1,0 +1,95 @@
+.meet-box-div {
+    height: 90%;
+    width: 100%;
+    background-color: #efdfd2d6;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.meet-div-1 {
+    width: 52%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.built {
+    font-family: "Euclid";
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 13%;
+    height: 20%;
+    display: flex;
+    margin-bottom: 0px;
+    align-items: flex-end;
+    color: rgb(81, 73, 73);
+}
+
+.meet {
+    font-family: "PT Sans";
+    font-size: 50px;
+    font-weight: bold;
+    height: 10%;
+    margin-left: 13%;
+    margin-top: 2px;
+}
+
+.leaf2 {
+    height: 60px;
+    width: 30px;
+    margin-bottom: 0%;
+    margin-left: 20%;
+}
+
+.meet-star-img2 {
+    width: 50px;
+    margin-bottom: 30px;
+    margin-left: 30%;
+}
+
+.meet-div-2 {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.meet-div-2 p {
+    font-family: "Euclid";
+    font-size: 24px;
+    width: 79%;
+    font-weight: 500;
+}
+
+.para1 {
+    margin-top: auto;
+}
+
+.para2 {
+    margin-bottom: 130px;
+}
+
+.leaf {
+    height: 76px;
+    margin-left: 60%;
+    margin-top: 10%;
+}
+
+.meet-inner-div {
+    width: 90%;
+    margin: 0px auto;
+    height: 35%;
+    display: flex;
+    align-items: flex-end;
+    background-image: url("https://res.cloudinary.com/dwgg5pyqk/image/upload/v1708338660/coworking-two-circles_uaor4i.png");
+    background-size: cover;
+}
+
+.meet-ghost {
+    width: 200px;
+    margin-left: 23%;
+}

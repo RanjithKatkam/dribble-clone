@@ -1,0 +1,47 @@
+.self-improvment-div {
+    height: 80%;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.self-circle {
+    position: absolute;
+    top: 7%;
+    left: -1.5%;
+    width: 30px;
+}
+
+.details-list {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+
+.list {
+    height: 25%;
+    width: 90%;
+    border-left: 4px solid #826dd4;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.list p {
+    font-family: "Euclid";
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 900;
+    margin-bottom: 13px;
+}
+
+.list h4 {
+    font-family: "Euclid";
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 200;
+    margin-top: 0px;
+    width: 90%;
+}

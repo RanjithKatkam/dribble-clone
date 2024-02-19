@@ -1,0 +1,246 @@
+.body-main-container {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.landing-page {
+    height: 640px;
+    width: 91%;
+    background-color: #eeebfe;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.font-section {
+    width: 55%;
+    height: 100%;
+    background-image: url("https://res.cloudinary.com/dwgg5pyqk/image/upload/v1708344404/airy-multicolored-pastel-clouds-in-a-semi-circle_fvmfmx.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+}
+
+.font-section p {
+    font-family: "Euclid";
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.font-section h1 {
+    font-family: "PT Sans";
+    font-size: 65px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 65px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-left: 100px;
+}
+
+.palystore-section {
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 29px;
+    display: flex;
+    align-items: center;
+}
+
+.playstore-button {
+    width: 160px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.app-store {
+    height: 100%;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.app-store p:nth-child(1) {
+    font-size: 10px;
+    color: white;
+    margin-left: 6px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+.app-store p:nth-child(2) {
+    font-size: 17px;
+    color: white;
+    margin-left: 6px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+.playstore-button img {
+    width: 40px;
+    margin-left: 3px;
+}
+
+.image-section {
+    background-image: url("https://res.cloudinary.com/dwgg5pyqk/image/upload/v1708279045/Screenshot_284_qgnl3f.png");
+    height: 100%;
+    width: 45%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+.rating-section {
+    height: 100%;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 40px;
+}
+
+.stars {
+    display: flex;
+    width: 190px;
+    height: 50%;
+}
+
+.stars img {
+    height: 100%;
+    margin-left: 5px;
+}
+
+.rating-section p {
+    font-family: "Euclid";
+    font-size: 14px;
+    margin: 6px 0px 0px 6px;
+}
+
+.image-section img {
+    height: 100%;
+}
+
+.eq-beats-section {
+    height: 150px;
+    width: 91%;
+    display: flex;
+    margin-top: 120px;
+    align-items: flex-start;
+}
+
+.eq-beats-section h1 {
+    font-family: "Euclid";
+    font-size: 34px;
+    height: 100%;
+    width: 30%;
+    margin-top: 0px;
+}
+
+.eq-div {
+    width: 40%;
+    height: 100%;
+}
+
+.eq-div p {
+    width: 90%;
+    font-family: "Euclid";
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.container {
+    height: 500px;
+    width: 91%;
+    background-color: grey;
+}
+
+.meet-box {
+    height: 90vh;
+    width: 91%;
+    margin-top: 60px;
+    position: relative;
+}
+
+.meet-star-img {
+    height: 46px;
+    position: absolute;
+    top: "0%";
+    right: 10%;
+}
+
+.self-improvment-section {
+    height: 90vh;
+    width: 86%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.self-improvment-heading-section {
+    height: 15%;
+    width: 100%;
+    display: flex;
+}
+
+.self-improvment-section p {
+    font-family: "Euclid";
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0;
+}
+
+.self-improvment-section h1 {
+    font-family: "PT Sans";
+    font-size: 50px;
+    margin-top: 13px;
+}
+
+.self-ghost {
+    width: 100px;
+}
+
+.eq-beats-section-2 {
+    height: 190px;
+    width: 91%;
+    display: flex;
+    margin-top: 180px;
+    align-items: flex-start;
+}
+
+.eq-beats-section-2 h1 {
+    font-family: "Euclid";
+    font-size: 34px;
+    height: 100%;
+    width: 30%;
+    margin-top: 0px;
+}
+
+.eq-div-2 {
+    width: 35%;
+    height: 100%;
+}
+
+.eq-div-2 p {
+    width: 90%;
+    font-family: "Euclid";
+    font-weight: 600;
+    margin-top: 0px;
+    width: 80%;
+}
+
+.others-ratings-section {
+    height: 100vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,0 +1,86 @@
+.does-this-section {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    width: 91%;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.does-this-section h1 {
+    font-family: "Euclid";
+    font-size: 44px;
+    font-weight: bold;
+    height: 100%;
+}
+
+.does-this-section img {
+    height: 70px;
+}
+
+.cards-section {
+    width: 91%;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+    overflow-x: scroll;
+}
+
+.cards-main-section {
+    min-width: 3400px;
+    display: flex;
+    height: 75%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: 350px;
+    height: 100%;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+.card h1 {
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 37px;
+}
+
+.card p {
+    font-family: "Euclid";
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.card h2 {
+    font-family: "Euclid";
+    font-weight: 900;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.a {
+    background-color: #d8f2ff;
+}
+
+.b {
+    background-color: #eeebfe;
+}
+
+.c {
+    background-color: #6341ef;
+    color: white;
+}
+
+.d {
+    background-origin: #ffefd5;
+}

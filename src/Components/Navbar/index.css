@@ -1,0 +1,38 @@
+.navbar-main-container {
+    height: 90px;
+    background-color: grey;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-main-container img {
+    height: 80px;
+    margin-left: 44px;
+}
+
+.nav-list {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.nav-list p {
+    font-family: "Euclid";
+    font-weight: bold;
+}
+
+.navbar-main-container button {
+    background-color: black;
+    color: white;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 20px 30px;
+    border-radius: 30px;
+    margin-right: 90px;
+    font-family: "Euclid";
+    font-weight: bold;
+}

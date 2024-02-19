@@ -1,0 +1,85 @@
+.other-ratings-div {
+    height: 90%;
+    width: 100%;
+    background-color: #c4deec;
+    border-radius: 20px;
+}
+
+.other-ratings-heading-section {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.other-ratings-heading-section p {
+    font-family: "Euclid";
+    font-size: 16px;
+    color: #494646;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.other-ratings-heading-section h1 {
+    font-family: "PT Sans";
+    font-size: 59px;
+    letter-spacing: 0.9px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.timeline-section {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sun {
+    background-image: url("https://res.cloudinary.com/dwgg5pyqk/image/upload/v1708350595/sun_los7bt.svg");
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Euclid";
+    font-weight: 900;
+    font-size: 17px;
+    margin: 0px 5px;
+}
+
+.timeline-section p {
+    color: #ffc114;
+    font-weight: 900;
+}
+
+.timeline-section-headings {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    margin: 0px auto;
+}
+
+.timeline-section-headings p {
+    font-family: "Euclid";
+    font-weight: 600;
+    font-size: 14px;
+    width: 200px;
+    text-align: center;
+}
+
+.p1 {
+    margin-left: 13%;
+}
+
+.p2 {
+    margin-left: 15%;
+}
+
+.p3 {
+    margin-left: 15%;
+}
