@@ -32,6 +32,17 @@ function Body() {
                 scrub: 10,
             },
         });
+
+        gsap.from("#wrong, #self", {
+            x: "-200px",
+            duration: 1,
+            opacity: 0,
+            scrollTrigger: {
+                trigger: "#wrong, #self",
+                scroller: ".hero",
+                start: "top 80%",
+            },
+        });
         gsap.fromTo(
             ".self-ghost",
             {
@@ -116,7 +127,9 @@ function Body() {
                     </p>
                 </div>
             </div>
-            <DoesThis />
+            <div className="does-this-main-div">
+                <DoesThis />
+            </div>
             <div className="meet-box">
                 <img
                     className="meet-star-img"
@@ -128,8 +141,8 @@ function Body() {
             <div className="self-improvment-section">
                 <div className="self-improvment-heading-section">
                     <div>
-                        <p>Wrong with self-improvement & how we're fixing it.</p>
-                        <h1> Self-improvement. Ugh.</h1>
+                        <p id="wrong">Wrong with self-improvement & how we're fixing it.</p>
+                        <h1 id="self"> Self-improvement. Ugh.</h1>
                     </div>
                     <img
                         src="https://res.cloudinary.com/dwgg5pyqk/image/upload/v1708278905/halloween-ghost-7291015_1280_ccplpu.png"

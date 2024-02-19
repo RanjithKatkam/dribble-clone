@@ -1,9 +1,33 @@
 import "./index.css";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 function Careers() {
+    useGSAP(() => {
+        gsap.from("#open", {
+            x: "-200px",
+            duration: 1,
+            opacity: 0,
+            scrollTrigger: {
+                trigger: "#open",
+                scroller: ".hero",
+                start: "top 80%",
+            },
+        });
+        gsap.from(".positions-div", {
+            y: "100px",
+            duration: 1,
+            opacity: 0,
+            scrollTrigger: {
+                trigger: ".positions-div",
+                scroller: ".hero",
+                start: "top 80%",
+            },
+        });
+    }, []);
     return (
         <div className="careers-div">
-            <h1>Open vacancies</h1>
+            <h1 id="open">Open vacancies</h1>
             <div className="positions-div">
                 <div className="position">
                     <h1>Senior Full-Stack Engineer</h1>

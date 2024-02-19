@@ -1,9 +1,20 @@
 import { useGSAP } from "@gsap/react";
-// import gsap from "gsap";
+import gsap from "gsap";
 import "./index.css";
 
 function MeetBox() {
-    useGSAP(() => {}, []);
+    useGSAP(() => {
+        gsap.from(".built, .meet", {
+            x: "-200px",
+            duration: 1,
+            opacity: 0,
+            scrollTrigger: {
+                trigger: ".buitl, .meet",
+                scroller: ".hero",
+                start: "top 80%",
+            },
+        });
+    }, []);
 
     return (
         <div className="meet-box-div">

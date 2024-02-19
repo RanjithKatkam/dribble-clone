@@ -58,6 +58,7 @@
     font-weight: 900;
     margin-top: 30px;
     width: 110px;
+    cursor: pointer;
 }
 
 .test-section-div h5 {

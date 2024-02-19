@@ -1,6 +1,21 @@
+import { useGSAP } from "@gsap/react";
 import "./index.css";
+import gsap from "gsap";
 
 function TestSection() {
+    useGSAP(() => {
+        gsap.from(".test-button, .takes", {
+            opacity: 0,
+            duration: 1,
+            y: "100px",
+            scale: 0,
+            scrollTrigger: {
+                trigger: ".test-button",
+                scroller: ".hero",
+                start: "top 80%",
+            },
+        });
+    }, []);
     return (
         <div className="test-section-div">
             <h4>We take privacy seriously</h4>
@@ -10,7 +25,7 @@ function TestSection() {
                 with love, <span>Ranjith Katkam</span>
             </h2>
             <button className="test-button">Start a test</button>
-            <h5>Takes only 5 minutes.</h5>
+            <h5 className="takes">Takes only 5 minutes.</h5>
         </div>
     );
 }

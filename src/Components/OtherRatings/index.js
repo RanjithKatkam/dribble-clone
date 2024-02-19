@@ -1,6 +1,77 @@
+import { useGSAP } from "@gsap/react";
 import "./index.css";
+import gsap from "gsap";
 
 function OtherRatings() {
+    const tl = gsap.timeline();
+    useGSAP(() => {
+        tl.from(".sun", {
+            opacity: 0,
+            scale: 0,
+            duration: 1,
+            delay: 0,
+            scrollTrigger: {
+                trigger: ".sun",
+                scroller: ".hero",
+                start: "top 75%",
+            },
+        });
+        tl.from(".p1, .p2, .p3", {
+            duration: 1,
+            opacity: 0,
+            y: "120",
+            scrollTrigger: {
+                trigger: ".sun",
+                scroller: ".hero",
+                start: "top 75%",
+            },
+        });
+        gsap.from(".c1, .you3", {
+            x: "-300px",
+            y: "-45px",
+            duration: 1,
+            opacity: 0,
+            scrollTrigger: {
+                trigger: ".sun",
+                scroller: ".hero",
+                start: "top 75%",
+            },
+        });
+        gsap.from(".c2, .you4", {
+            x: "100px",
+            y: "245px",
+            duration: 1,
+            opacity: 0,
+            scrollTrigger: {
+                trigger: ".sun",
+                scroller: ".hero",
+                start: "top 75%",
+            },
+        });
+        gsap.from(".c3, .you2", {
+            x: "-200px",
+            y: "145px",
+            duration: 1,
+            opacity: 0,
+            scrollTrigger: {
+                trigger: ".sun",
+                scroller: ".hero",
+                start: "top 75%",
+            },
+        });
+        gsap.from(".c4, .you1", {
+            x: "200px",
+            y: "65px",
+            duration: 1,
+            opacity: 0,
+            scrollTrigger: {
+                trigger: ".sun",
+                scroller: ".hero",
+                start: "top 75%",
+            },
+        });
+    }, []);
+
     return (
         <div className="other-ratings-div">
             <div className="other-ratings-heading-section">

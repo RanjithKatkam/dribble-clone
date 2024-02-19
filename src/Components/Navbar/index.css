@@ -11,6 +11,7 @@
 .navbar-main-container img {
     height: 80px;
     margin-left: 44px;
+    cursor: pointer;
 }
 
 .nav-list {
@@ -24,6 +25,7 @@
 .nav-list p {
     font-family: "Euclid";
     font-weight: bold;
+    cursor: pointer;
 }
 
 .navbar-main-container button {
@@ -35,4 +37,5 @@
     margin-right: 90px;
     font-family: "Euclid";
     font-weight: bold;
+    cursor: pointer;
 }

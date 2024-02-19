@@ -3,42 +3,30 @@ import gsap from "gsap";
 import "./index.css";
 
 function SelfImprovment() {
-    const tl = gsap.timeline();
     useGSAP(() => {
-        tl.to(".self-circle", {
+        gsap.to(".self-circle", {
             top: "35%",
             left: "-1.5%",
-            duration: 3,
-            scrollTrigger: {
-                trigger: ".self-circle",
-                scroller: ".hero",
-                // markers: true,
-                start: "top 60%",
-                end: "bottom 10%",
-            },
+            duration: 1,
         });
-        tl.to(".self-circle", {
+        gsap.to(".self-circle", {
+            top: "35%",
+            left: "-1.5%",
+            duration: 1,
+        });
+        gsap.to(".self-circle", {
             top: "56%",
             left: "-1.5%",
-            duration: 3,
-            scrollTrigger: {
-                trigger: ".self-circle",
-                scroller: ".hero",
-                // markers: true,
-                start: "top 60%",
-                end: "bottom 10%",
-            },
+            duration: 1,
         });
-        tl.to(".self-circle", {
+        gsap.to(".self-circle", {
             top: "86%",
             left: "-1.5%",
-            duration: 3,
+            duration: 1,
             scrollTrigger: {
                 trigger: ".self-circle",
                 scroller: ".hero",
-                // markers: true,
-                start: "top 60%",
-                end: "bottom 10%",
+                start: "top 55%",
             },
         });
     }, []);
