@@ -1,0 +1,67 @@
+.test-section-div {
+    height: 70%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+.test-section-div h4 {
+    font-family: "Euclid";
+    font-weight: 600;
+    font-size: 17px;
+    color: rgb(110, 103, 103);
+    margin: 0px;
+}
+
+.test-section-div p {
+    font-family: "PT Sans";
+    font-weight: 900;
+    font-size: 37px;
+    margin: 10px 0px;
+}
+
+.test-section-div h3 {
+    font-family: "Euclid";
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(102, 92, 92);
+    margin: 0px;
+    width: 70%;
+    text-align: center;
+}
+
+.test-section-div h2 {
+    font-family: "Euclid";
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(102, 92, 92);
+    width: 70%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.test-section-div h2 span {
+    font-family: "Cedarville Cursive";
+    font-size: 26px;
+    color: black;
+}
+
+.test-button {
+    background-color: black;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    font-family: "Euclid";
+    font-weight: 900;
+    margin-top: 30px;
+    width: 110px;
+}
+
+.test-section-div h5 {
+    font-family: "Euclid";
+    font-size: 15px;
+    color: rgb(102, 92, 92);
+}

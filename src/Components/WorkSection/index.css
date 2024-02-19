@@ -1,0 +1,146 @@
+.work-section-div {
+    height: 97%;
+    width: 85%;
+    background-color: #f3f1ff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.work-heading-section {
+    display: flex;
+    width: 90%;
+    height: 15%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.work-heading-section h1 {
+    font-family: "Euclid";
+    font-weight: 900;
+    font-size: 54px;
+    margin: 0;
+}
+
+.work-heading-section h2 {
+    font-family: "PT Sans";
+    font-weight: 900;
+    font-size: 54px;
+    color: #653ff3;
+    margin: 0;
+}
+
+.work-main-div {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-div1 {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.work-div2 {
+    width: 40%;
+    height: 100%;
+    margin-right: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.about-div {
+    height: 90%;
+    background-color: white;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.about-div img {
+    width: 70px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.about-div h2 {
+    font-family: "PT Sans";
+    font-weight: 900;
+    font-size: 26px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.about-div p {
+    font-family: "Euclid";
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 15px;
+    width: 90%;
+}
+
+.about-inner-div {
+    background-color: rgb(245, 229, 215);
+    padding-top: 40px;
+    border-radius: 20px;
+    height: 43%;
+}
+
+.work-cards-div {
+    height: 95%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    scrollbar-width: 2px;
+    scrollbar-color: black;
+}
+
+.work-cards-div::-webkit-scrollbar {
+    display: block;
+    width: 8px;
+    border-radius: 10px;
+}
+
+.work-cards-div::-webkit-scrollbar-track {
+    background: #bcb3b3;
+}
+
+.work-cards-div::-webkit-scrollbar-thumb {
+    background: #653ff3;
+}
+
+.work-card {
+    width: 83%;
+    height: 230px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding: 20px 10px;
+}
+
+.work-card h3 {
+    width: 75%;
+    margin: 0;
+    font-weight: 700;
+    font-family: "Euclid";
+}
+
+.work-card p {
+    width: 75%;
+    margin: 0px;
+    font-family: "Euclid";
+}

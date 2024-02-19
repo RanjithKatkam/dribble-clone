@@ -244,3 +244,30 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.test-section {
+    height: 80vh;
+    width: 91%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-section {
+    height: 90vh;
+    width: 91%;
+}
+
+.career-section {
+    height: 60vh;
+    width: 91%;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.footer-section {
+    height: 60vh;
+    width: 91%;
+    background-color: green;
+    margin-top: 10px;
+}

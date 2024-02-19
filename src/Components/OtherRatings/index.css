@@ -1,7 +1,7 @@
 .other-ratings-div {
     height: 90%;
     width: 100%;
-    background-color: #c4deec;
+    background-color: #e0f1fb;
     border-radius: 20px;
 }
 
@@ -82,4 +82,113 @@
 
 .p3 {
     margin-left: 15%;
+}
+
+.ratings-view-section {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.ratings-view-div {
+    height: 70%;
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.ratings-view-div p {
+    color: rgb(205, 194, 194);
+    font-weight: 900;
+}
+
+.circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.c1 {
+    background-color: #6340ef;
+}
+
+.c2 {
+    background-color: #3fc2fc;
+}
+
+.c3 {
+    background-color: #fcb437;
+}
+
+.c4 {
+    background-color: #58c896;
+}
+
+.you1 {
+    position: absolute;
+    background-color: #6340ef;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-family: "Euclid";
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 33%;
+    left: 23%;
+}
+
+.you2 {
+    position: absolute;
+    background-color: #3fc2fc;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-family: "Euclid";
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 56%;
+    left: 42%;
+}
+.you3 {
+    position: absolute;
+    background-color: #fcb437;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-family: "Euclid";
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 33%;
+    left: 57%;
+}
+
+.you4 {
+    position: absolute;
+    background-color: #58c896;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-family: "Euclid";
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 56%;
+    left: 71%;
 }

@@ -6,6 +6,9 @@ import DoesThis from "../DoesThis";
 import MeetBox from "../MeetBox";
 import SelfImprovment from "../SelfImprovment";
 import OtherRatings from "../OtherRatings";
+import TestSection from "../TestSection";
+import WorkSection from "../WorkSection";
+import Careers from "../Careers";
 gsap.registerPlugin(ScrollTrigger);
 
 function Body() {
@@ -153,6 +156,16 @@ function Body() {
             <div className="others-ratings-section">
                 <OtherRatings />
             </div>
+            <div className="test-section">
+                <TestSection />
+            </div>
+            <div className="work-section">
+                <WorkSection />
+            </div>
+            <div className="career-section">
+                <Careers />
+            </div>
+            <div className="footer-section"></div>
         </div>
     );
 }
