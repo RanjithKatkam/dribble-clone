@@ -9,6 +9,7 @@ import OtherRatings from "../OtherRatings";
 import TestSection from "../TestSection";
 import WorkSection from "../WorkSection";
 import Careers from "../Careers";
+import Footer from "../Footer";
 gsap.registerPlugin(ScrollTrigger);
 
 function Body() {
@@ -165,7 +166,9 @@ function Body() {
             <div className="career-section">
                 <Careers />
             </div>
-            <div className="footer-section"></div>
+            <div className="footer-section">
+                <Footer />
+            </div>
         </div>
     );
 }

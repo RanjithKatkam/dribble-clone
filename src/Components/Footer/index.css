@@ -1,0 +1,75 @@
+.footer {
+    height: 90%;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    height: 90px;
+    margin-top: 20px;
+}
+
+.footer-heading {
+    font-family: "Euclid";
+    margin-top: 5px;
+    color: #653ff3;
+    font-weight: 900;
+}
+
+.location-mail-div {
+    display: flex;
+    width: 78%;
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-between;
+}
+
+.details-loc {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.loc-circle-div {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9df0da;
+    margin-right: 10px;
+}
+
+.loc-circle-div img {
+    height: 20px;
+}
+
+.details-loc p {
+    font-family: "Euclid";
+}
+
+.playstore-button-footer {
+    width: 160px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.playstore-button-footer img {
+    width: 40px;
+    margin-left: 3px;
+}
+
+.copy-right {
+    font-family: "Euclid";
+    font-weight: 600;
+    color: rgb(141, 130, 130);
+    margin-top: 20px;
+}

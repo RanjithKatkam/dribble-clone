@@ -268,6 +268,5 @@
 .footer-section {
     height: 60vh;
     width: 91%;
-    background-color: green;
-    margin-top: 10px;
+    border-top: 1px solid grey;
 }
